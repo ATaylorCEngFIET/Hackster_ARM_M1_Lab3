@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Aug 13 13:41:21 2019
+# Process ID: 35820
+# Current directory: C:/hackster_run/AT472-BU-98000-r0p1-00rel0/hardware/m1_for_arty_s7/m1_for_arty_s7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35320 C:\hackster_run\AT472-BU-98000-r0p1-00rel0\hardware\m1_for_arty_s7\m1_for_arty_s7\m1_for_arty_s7.xpr
+# Log file: C:/hackster_run/AT472-BU-98000-r0p1-00rel0/hardware/m1_for_arty_s7/m1_for_arty_s7/vivado.log
+# Journal file: C:/hackster_run/AT472-BU-98000-r0p1-00rel0/hardware/m1_for_arty_s7/m1_for_arty_s7\vivado.jou
+#-----------------------------------------------------------
+start_gui

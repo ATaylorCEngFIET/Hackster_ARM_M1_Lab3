@@ -1,0 +1,511 @@
+11:48:48 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in CORTEXM1_AXI_0/libsrc/bram_v4_2/src"
+make -C CORTEXM1_AXI_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src"
+make -C CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/gpio_v4_3/src"
+make -C CORTEXM1_AXI_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/spi_v4_4/src"
+make -C CORTEXM1_AXI_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/standalone_v6_7/src"
+make -C CORTEXM1_AXI_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src"
+make -C CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/bram_v4_2/src"
+make -C CORTEXM1_AXI_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling bram"
+In file included from xbram_selftest.c:73:0:
+../../../include/xil_cache.h: In function 'Xil_DCacheInvalidateRange':
+../../../include/xil_cache.h:62:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+../../../include/xil_cache.h:62:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+../../../include/xil_cache.h: In function 'Xil_DCacheFlushRange':
+../../../include/xil_cache.h:64:34: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                  ^~~
+../../../include/xil_cache.h:64:43: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                           ^~~
+../../../include/xil_cache.h: In function 'Xil_ICacheInvalidateRange':
+../../../include/xil_cache.h:69:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+../../../include/xil_cache.h:69:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src"
+make -C CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling cpu_cortexm1"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/gpio_v4_3/src"
+make -C CORTEXM1_AXI_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/spi_v4_4/src"
+make -C CORTEXM1_AXI_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/standalone_v6_7/src"
+make -C CORTEXM1_AXI_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling standalone"
+In file included from xil_cache.c:108:0:
+xil_cache.h: In function 'Xil_DCacheInvalidateRange':
+xil_cache.h:62:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+xil_cache.h:62:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+xil_cache.h: In function 'Xil_DCacheFlushRange':
+xil_cache.h:64:34: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                  ^~~
+xil_cache.h:64:43: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                           ^~~
+xil_cache.h: In function 'Xil_ICacheInvalidateRange':
+xil_cache.h:69:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+xil_cache.h:69:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+"Running Make libs in CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src"
+make -C CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+14:31:45 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+'Finished building libraries'
+14:31:51 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in CORTEXM1_AXI_0/libsrc/bram_v4_2/src"
+make -C CORTEXM1_AXI_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src"
+make -C CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/gpio_v4_3/src"
+make -C CORTEXM1_AXI_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/spi_v4_4/src"
+make -C CORTEXM1_AXI_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/standalone_v6_7/src"
+make -C CORTEXM1_AXI_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src"
+make -C CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/bram_v4_2/src"
+make -C CORTEXM1_AXI_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling bram"
+In file included from xbram_selftest.c:73:0:
+../../../include/xil_cache.h: In function 'Xil_DCacheInvalidateRange':
+../../../include/xil_cache.h:62:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+../../../include/xil_cache.h:62:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+../../../include/xil_cache.h: In function 'Xil_DCacheFlushRange':
+../../../include/xil_cache.h:64:34: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                  ^~~
+../../../include/xil_cache.h:64:43: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                           ^~~
+../../../include/xil_cache.h: In function 'Xil_ICacheInvalidateRange':
+../../../include/xil_cache.h:69:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+../../../include/xil_cache.h:69:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src"
+make -C CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling cpu_cortexm1"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/gpio_v4_3/src"
+make -C CORTEXM1_AXI_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling PmodHYGRO..."
+In file included from xiic.h:324:0,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+PmodHYGRO.c: In function 'HYGRO_IICInit':
+xiic_l.h:299:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:316:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodHYGRO.c:172:2: note: in expansion of macro 'XIic_IntrGlobalDisable'
+  XIic_IntrGlobalDisable(IicInstancePtr);
+  ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:97:0,
+                 from xiic.h:324,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+PmodHYGRO.c: In function 'StatusHandler':
+PmodHYGRO.c:270:38: warning: unused parameter 'InstancePtr' [-Wunused-parameter]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+                                      ^~~~~~~~~~~
+At top level:
+PmodHYGRO.c:270:13: warning: 'StatusHandler' defined but not used [-Wunused-function]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+             ^~~~~~~~~~~~~
+xtmrctr_sinit.c: In function 'XTmrCtr_LookupConfig':
+xtmrctr_sinit.c:89:24: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  for (Index = 0; Index < XPAR_XTMRCTR_NUM_INSTANCES; Index++) {
+                        ^
+"Running Make libs in CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling PmodNAV..."
+PmodNAV.c: In function 'NAV_GetODRRaw':
+PmodNAV.c:2289:11: warning: 'getODR' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return getODR;
+           ^~~~~~
+PmodNAV.c: In function 'NAV_GetFIFOMode':
+PmodNAV.c:2616:11: warning: 'getFIFO' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return getFIFO;
+           ^~~~~~~
+PmodNAV.c: In function 'NAV_GetFIFOThs':
+PmodNAV.c:2665:11: warning: 'bFifoThs' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return bFifoThs;
+           ^~~~~~~~
+PmodNAV.c: In function 'NAV_GetFIFOStatus':
+PmodNAV.c:2699:11: warning: 'getFIFOSts' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return getFIFOSts;
+           ^~~~~~~~~~
+"Running Make libs in CORTEXM1_AXI_0/libsrc/spi_v4_4/src"
+make -C CORTEXM1_AXI_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/standalone_v6_7/src"
+make -C CORTEXM1_AXI_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling standalone"
+In file included from xil_cache.c:108:0:
+xil_cache.h: In function 'Xil_DCacheInvalidateRange':
+xil_cache.h:62:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+xil_cache.h:62:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+xil_cache.h: In function 'Xil_DCacheFlushRange':
+xil_cache.h:64:34: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                  ^~~
+xil_cache.h:64:43: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                           ^~~
+xil_cache.h: In function 'Xil_ICacheInvalidateRange':
+xil_cache.h:69:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+xil_cache.h:69:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+"Running Make libs in CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src"
+make -C CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+14:32:11 **** Clean-only build of project standalone_bsp_0 ****
+make -k clean 
+make -C CORTEXM1_AXI_0/libsrc/bram_v4_2/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/gpio_v4_3/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/spi_v4_4/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/standalone_v6_7/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src -s clean 
+rm -f CORTEXM1_AXI_0/lib/libxil.a
+14:32:12 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in CORTEXM1_AXI_0/libsrc/bram_v4_2/src"
+make -C CORTEXM1_AXI_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src"
+make -C CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/gpio_v4_3/src"
+make -C CORTEXM1_AXI_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/spi_v4_4/src"
+make -C CORTEXM1_AXI_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/standalone_v6_7/src"
+make -C CORTEXM1_AXI_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src"
+make -C CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/bram_v4_2/src"
+make -C CORTEXM1_AXI_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling bram"
+In file included from xbram_selftest.c:73:0:
+../../../include/xil_cache.h: In function 'Xil_DCacheInvalidateRange':
+../../../include/xil_cache.h:62:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+../../../include/xil_cache.h:62:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+../../../include/xil_cache.h: In function 'Xil_DCacheFlushRange':
+../../../include/xil_cache.h:64:34: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                  ^~~
+../../../include/xil_cache.h:64:43: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                           ^~~
+../../../include/xil_cache.h: In function 'Xil_ICacheInvalidateRange':
+../../../include/xil_cache.h:69:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+../../../include/xil_cache.h:69:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src"
+make -C CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling cpu_cortexm1"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/gpio_v4_3/src"
+make -C CORTEXM1_AXI_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling PmodHYGRO..."
+In file included from xiic.h:324:0,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+PmodHYGRO.c: In function 'HYGRO_IICInit':
+xiic_l.h:299:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:316:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodHYGRO.c:172:2: note: in expansion of macro 'XIic_IntrGlobalDisable'
+  XIic_IntrGlobalDisable(IicInstancePtr);
+  ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:97:0,
+                 from xiic.h:324,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+PmodHYGRO.c: In function 'StatusHandler':
+PmodHYGRO.c:270:38: warning: unused parameter 'InstancePtr' [-Wunused-parameter]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+                                      ^~~~~~~~~~~
+At top level:
+PmodHYGRO.c:270:13: warning: 'StatusHandler' defined but not used [-Wunused-function]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+             ^~~~~~~~~~~~~
+xtmrctr_sinit.c: In function 'XTmrCtr_LookupConfig':
+xtmrctr_sinit.c:89:24: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  for (Index = 0; Index < XPAR_XTMRCTR_NUM_INSTANCES; Index++) {
+                        ^
+"Running Make libs in CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling PmodNAV..."
+PmodNAV.c: In function 'NAV_GetODRRaw':
+PmodNAV.c:2289:11: warning: 'getODR' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return getODR;
+           ^~~~~~
+PmodNAV.c: In function 'NAV_GetFIFOMode':
+PmodNAV.c:2616:11: warning: 'getFIFO' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return getFIFO;
+           ^~~~~~~
+PmodNAV.c: In function 'NAV_GetFIFOThs':
+PmodNAV.c:2665:11: warning: 'bFifoThs' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return bFifoThs;
+           ^~~~~~~~
+PmodNAV.c: In function 'NAV_GetFIFOStatus':
+PmodNAV.c:2699:11: warning: 'getFIFOSts' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return getFIFOSts;
+           ^~~~~~~~~~
+"Running Make libs in CORTEXM1_AXI_0/libsrc/spi_v4_4/src"
+make -C CORTEXM1_AXI_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/standalone_v6_7/src"
+make -C CORTEXM1_AXI_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling standalone"
+In file included from xil_cache.c:108:0:
+xil_cache.h: In function 'Xil_DCacheInvalidateRange':
+xil_cache.h:62:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+xil_cache.h:62:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+xil_cache.h: In function 'Xil_DCacheFlushRange':
+xil_cache.h:64:34: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                  ^~~
+xil_cache.h:64:43: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                           ^~~
+xil_cache.h: In function 'Xil_ICacheInvalidateRange':
+xil_cache.h:69:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+xil_cache.h:69:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+"Running Make libs in CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src"
+make -C CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+14:35:15 **** Clean-only build of project standalone_bsp_0 ****
+make -k clean 
+make -C CORTEXM1_AXI_0/libsrc/bram_v4_2/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/gpio_v4_3/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/spi_v4_4/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/standalone_v6_7/src -s clean 
+make -C CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src -s clean 
+rm -f CORTEXM1_AXI_0/lib/libxil.a
+14:35:16 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in CORTEXM1_AXI_0/libsrc/bram_v4_2/src"
+make -C CORTEXM1_AXI_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src"
+make -C CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/gpio_v4_3/src"
+make -C CORTEXM1_AXI_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/spi_v4_4/src"
+make -C CORTEXM1_AXI_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/standalone_v6_7/src"
+make -C CORTEXM1_AXI_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make include in CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src"
+make -C CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/bram_v4_2/src"
+make -C CORTEXM1_AXI_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling bram"
+In file included from xbram_selftest.c:73:0:
+../../../include/xil_cache.h: In function 'Xil_DCacheInvalidateRange':
+../../../include/xil_cache.h:62:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+../../../include/xil_cache.h:62:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+../../../include/xil_cache.h: In function 'Xil_DCacheFlushRange':
+../../../include/xil_cache.h:64:34: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                  ^~~
+../../../include/xil_cache.h:64:43: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                           ^~~
+../../../include/xil_cache.h: In function 'Xil_ICacheInvalidateRange':
+../../../include/xil_cache.h:69:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+../../../include/xil_cache.h:69:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src"
+make -C CORTEXM1_AXI_0/libsrc/cpu_cortexm1_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling cpu_cortexm1"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/gpio_v4_3/src"
+make -C CORTEXM1_AXI_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodHYGRO_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling PmodHYGRO..."
+In file included from xiic.h:324:0,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+PmodHYGRO.c: In function 'HYGRO_IICInit':
+xiic_l.h:299:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:316:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodHYGRO.c:172:2: note: in expansion of macro 'XIic_IntrGlobalDisable'
+  XIic_IntrGlobalDisable(IicInstancePtr);
+  ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:97:0,
+                 from xiic.h:324,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+PmodHYGRO.c: In function 'StatusHandler':
+PmodHYGRO.c:270:38: warning: unused parameter 'InstancePtr' [-Wunused-parameter]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+                                      ^~~~~~~~~~~
+At top level:
+PmodHYGRO.c:270:13: warning: 'StatusHandler' defined but not used [-Wunused-function]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+             ^~~~~~~~~~~~~
+xtmrctr_sinit.c: In function 'XTmrCtr_LookupConfig':
+xtmrctr_sinit.c:89:24: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  for (Index = 0; Index < XPAR_XTMRCTR_NUM_INSTANCES; Index++) {
+                        ^
+"Running Make libs in CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src"
+make -C CORTEXM1_AXI_0/libsrc/PmodNAV_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling PmodNAV..."
+PmodNAV.c: In function 'NAV_GetODRRaw':
+PmodNAV.c:2289:11: warning: 'getODR' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return getODR;
+           ^~~~~~
+PmodNAV.c: In function 'NAV_GetFIFOMode':
+PmodNAV.c:2616:11: warning: 'getFIFO' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return getFIFO;
+           ^~~~~~~
+PmodNAV.c: In function 'NAV_GetFIFOThs':
+PmodNAV.c:2665:11: warning: 'bFifoThs' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return bFifoThs;
+           ^~~~~~~~
+PmodNAV.c: In function 'NAV_GetFIFOStatus':
+PmodNAV.c:2699:11: warning: 'getFIFOSts' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return getFIFOSts;
+           ^~~~~~~~~~
+"Running Make libs in CORTEXM1_AXI_0/libsrc/spi_v4_4/src"
+make -C CORTEXM1_AXI_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in CORTEXM1_AXI_0/libsrc/standalone_v6_7/src"
+make -C CORTEXM1_AXI_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling standalone"
+In file included from xil_cache.c:108:0:
+xil_cache.h: In function 'Xil_DCacheInvalidateRange':
+xil_cache.h:62:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+xil_cache.h:62:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+xil_cache.h: In function 'Xil_DCacheFlushRange':
+xil_cache.h:64:34: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                  ^~~
+xil_cache.h:64:43: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len) {};
+                                           ^~~
+xil_cache.h: In function 'Xil_ICacheInvalidateRange':
+xil_cache.h:69:39: warning: unused parameter 'adr' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                       ^~~
+xil_cache.h:69:48: warning: unused parameter 'len' [-Wunused-parameter]
+ void Xil_ICacheInvalidateRange(INTPTR adr, u32 len) {};
+                                                ^~~
+"Running Make libs in CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src"
+make -C CORTEXM1_AXI_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
